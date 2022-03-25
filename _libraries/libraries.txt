@@ -1,0 +1,12 @@
+#Libraries to import
+
+import sys
+sys.path.insert(1, 'C:/Users/ALP/ironhack_2022/Unit_06/Day_02/lab_apis/config.py')
+from config import *
+import spotipy
+import json
+from spotipy.oauth2 import SpotifyClientCredentials
+
+#Initialize SpotiPy with user credentias
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id= client_id,
+                                                           client_secret= client_secret_id))
