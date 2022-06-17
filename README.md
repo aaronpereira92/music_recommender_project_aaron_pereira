@@ -16,23 +16,24 @@ For the data to be used:
 The folders present in this repo are:
 
 - datasets : 
-      - `hot100.csv` contains the billboard hot 100 songs,
-      - `not_hot.csv` contains around 5000 not hot songs, 
-      - `featsfinal.csv` contains spotify features of both nothot and hot100 songs combined, 
-      - `feats_final_withclusters.csv` contains features and the clusters (This one is needed for the final function, but functioon knows filepath).
+     - `hot100.csv` contains the billboard hot 100 songs,
+     - `not_hot.csv` contains around 5000 not hot songs, 
+     - `featsfinal.csv` contains spotify features of both nothot and hot100 songs combined, 
+     - `feats_final_withclusters.csv` contains features and the clusters (This one is needed for the final function, but functioon knows filepath).
 
 - functions:
-      - `functions.py` which contains the song_recommender function. So import by entering:
+     - `functions.py` which contains the song_recommender function. So import by entering:
+            
             ```python
             import song_recommender from functions```
 
 - jupyternotebooks: 
       
      Contains the following notebooks (here is the correct order of operation):
-      - `lab_webscraping_single_page_aaron_pereira.ipynb` - webscrapping for music data from billboardhot 100.
-      - `lab_not_hot_songs_aaron_pereira.ipynb`- webscraping from other sites
-      - `lab_spotify_api.ipynb`- using spotify to get features of the songs in dataset
-      - `lab_kmeans_clustering.ipynb` - This is for the kmeans clustering model
+     - `lab_webscraping_single_page_aaron_pereira.ipynb` - webscrapping for music data from billboardhot 100.
+     - `lab_not_hot_songs_aaron_pereira.ipynb`- webscraping from other sites
+     - `lab_spotify_api.ipynb`- using spotify to get features of the songs in dataset
+     - `lab_kmeans_clustering.ipynb` - This is for the kmeans clustering model
 
 - libraries: 
       
