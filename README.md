@@ -22,25 +22,28 @@ The folders present in this repo are:
       `feats_final_withclusters.csv` contains features and the clusters (This one is needed for the final function, but functioon knows filepath).
 
 - functions:
-      `functions.py` which contains the song_recommender function. So do:
-            '''
-            import song_recommender from functions
-            '''
+      `functions.py` which contains the song_recommender function. So import by entering:
+            ```python
+            import song_recommender from functions```
 
-_jupyternotebooks: Contains the following notebooks (here is the correct order of operation):
-lab_webscraping_single_page_aaron_pereira.ipynb - webscrapping for music data from billboardhot 100.
-lab_not_hot_songs_aaron_pereira.ipynb- webscraping from other sites
-lab_spotify_api.ipynb- using spotify to get features of the songs in dataset
-lab_kmeans_clustering.ipynb - This is for the kmeans clustering model
+- jupyternotebooks: 
+      Contains the following notebooks (here is the correct order of operation):
+      `lab_webscraping_single_page_aaron_pereira.ipynb` - webscrapping for music data from billboardhot 100.
+      `lab_not_hot_songs_aaron_pereira.ipynb`- webscraping from other sites
+      `lab_spotify_api.ipynb`- using spotify to get features of the songs in dataset
+      `lab_kmeans_clustering.ipynb` - This is for the kmeans clustering model
 
-_libraries: contains a text file of libraries that I used
+- libraries: 
+      contains a text file of libraries that I used
 
-_models: contains all the cluster models in pickle format. The one used for the functions.py is kmeans_15.pickle
+- models: 
+      contains all the cluster models in pickle format. The one used for the functions.py is kmeans_15.pickle
 
-_scalers: contains the standard scaler file which is used in functions.py, standard_scaler.pickle
+- scalers: 
+      contains the standard scaler file which is used in functions.py, standard_scaler.pickle
 
 
-In the main branch of this repo, you will find already availble the main.ipynb and main.py, as well as a functions.py for easy running. 
+- In the main branch of this repo, you will find already availble the main.ipynb and main.py, as well as a functions.py for easy running. 
 
-Link to my presentation is this:
+## Presentation Link:
 https://docs.google.com/presentation/d/1yXj_f92pGX6B9doz3tsxcNP0-D9TV5BQKafXwEwyyLI/edit?usp=sharing
