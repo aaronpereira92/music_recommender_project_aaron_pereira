@@ -37,18 +37,18 @@ The folders present in this repo are:
 
 - libraries: 
       
-     contains a text file of libraries that I used
+     - Contains a text file of libraries that I used
 
 - models: 
       
-     contains all the cluster models in pickle format. The one used for the functions.py is kmeans_15.pickle
+     - Contains all the cluster models in pickle format. The one used for the functions.py is `kmeans_15.pickle`.
 
 - scalers: 
      
-     contains the standard scaler file which is used in functions.py, standard_scaler.pickle
+     - Contains the standard scaler file which is used in functions.py, standard_scaler.pickle
 
 
-- In the main branch of this repo, you will find already availble the main.ipynb and main.py, as well as a functions.py for easy running. 
+- In the main branch of this repo, you will find already availble the `main.ipynb` and `main.py`, as well as a `functions.py` for easy running. 
 
 ## Presentation Link:
 https://docs.google.com/presentation/d/1yXj_f92pGX6B9doz3tsxcNP0-D9TV5BQKafXwEwyyLI/edit?usp=sharing
