@@ -25,7 +25,7 @@ The folders present in this repo are:
      - `functions.py` which contains the song_recommender function. So import by entering:
             
             ```python
-            import song_recommender from functions
+            from functions import song_recommender
             ```
 
 - jupyternotebooks: 
