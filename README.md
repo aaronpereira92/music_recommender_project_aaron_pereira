@@ -1,5 +1,13 @@
-# music_recommender_project_aaron_pereira
-This is my submission for the GNOD project from Ironhack. 
+# Song Recommender Project Aaron Pereira
+This is my submission for the GNOD project from Ironhack. Here I built a Song Recommender based on a K-Means Clustering model. 
+
+To get an idea about the idea behind how this Song recommender works, please have a look at the Schematic diagram below.
+But in a nutshell, a user enters the name of a song, if the song they chose is in the Hot 100, they will be recommended other Hot 100 songs. If the song is NOT in Hot 100, then they will be recommended similar NOT Hot songs based on certain variables from Spotify. 
+
+For the data to be used: 
+   - first I made a dataset of the Billboard Hot 100 songs (containing just the song name and artist name). This was done by Web Scraping the Billboard Hot 100 website using Beautiful Soup on Python. 
+   - Second I had a random dataset of 5000 songs which were NOT hot songs.
+   - Third, for these songs I extracted multiple variables using Spotify's API through Spotipy on Python. This data is used in the building of the K-Means Clustering model.    
 
 **Attention**: to make the final function work you need to have a config file containing all your SpotifyAP credentials
 
