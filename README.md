@@ -47,6 +47,9 @@ The folders present in this repo are:
      
      - Contains the standard scaler file which is used in functions.py, standard_scaler.pickle
 
+- images:
+     
+     - Images used in my presentation and also the schema iamge explaining the logic of this song recommender. 
 
 - In the main branch of this repo, you will find already availble the `main.ipynb` and `main.py`, as well as a `functions.py` for easy running. 
 
