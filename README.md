@@ -53,5 +53,10 @@ The folders present in this repo are:
 
 - In the main branch of this repo, you will find already availble the `main.ipynb` and `main.py`, as well as a `functions.py` for easy running. 
 
+
+## Schema 
+
+![alt text](https://github.com/aaronpereira92/](https://github.com/aaronpereira92/music_recommender_project_aaron_pereira/blob/main/_Images/schemaproject.png)
+
 ## Presentation Link:
 https://docs.google.com/presentation/d/1yXj_f92pGX6B9doz3tsxcNP0-D9TV5BQKafXwEwyyLI/edit?usp=sharing
