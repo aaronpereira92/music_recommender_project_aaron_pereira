@@ -16,6 +16,7 @@ For the data to be used:
 The folders present in this repo are:
 
 - datasets : 
+
       `hot100.csv` contains the billboard hot 100 songs,
       `not_hot.csv` contains around 5000 not hot songs, 
       `featsfinal.csv` contains spotify features of both nothot and hot100 songs combined, 
