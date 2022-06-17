@@ -56,7 +56,7 @@ The folders present in this repo are:
 
 ## Schema 
 
-![alt text](https://github.com/aaronpereira92/](https://github.com/aaronpereira92/music_recommender_project_aaron_pereira/blob/main/_Images/schemaproject.png)
+![alt text](https://github.com/aaronpereira92/music_recommender_project_aaron_pereira/blob/main/_Images/schemaproject.png)
 
 ## Presentation Link:
 https://docs.google.com/presentation/d/1yXj_f92pGX6B9doz3tsxcNP0-D9TV5BQKafXwEwyyLI/edit?usp=sharing
