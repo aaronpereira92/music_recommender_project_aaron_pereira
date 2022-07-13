@@ -1,7 +1,7 @@
 # Song Recommender Project Aaron Pereira
 This is my submission for the GNOD project from Ironhack. Here I built a Song Recommender based on a K-Means Clustering model. 
 
-To get an idea about the idea behind how this Song recommender works, please have a look at the Schematic diagram below.
+To get an idea about how this Song recommender works, please have a look at the Schematic diagram below.
 But in a nutshell, a user enters the name of a song, if the song they chose is in the Hot 100, they will be recommended other Hot 100 songs. If the song is NOT in Hot 100, then they will be recommended similar NOT Hot songs based on certain song features extracted from Spotify. 
 
 For the data to be used: 
